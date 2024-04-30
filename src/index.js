@@ -7,10 +7,13 @@ import Letreiro from './Letreiro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <div>
   <React.StrictMode>
+    <h1>Aula 01</h1>
     <Relogio/>
     <Letreiro/>
   </React.StrictMode>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
