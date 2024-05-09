@@ -1,9 +1,10 @@
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Atividade01 from "./Atividade01/atividade01";
 import Atividade02 from "./Atividade02/Atividade02";
 
-export default function Routes() {
+
+export default function routes() {
     return (
         <BrowserRouter>
             <Routes>
