@@ -1,5 +1,5 @@
 import React from 'react';
-import './Relogio.css';
+
 
 class Relogio extends React.Component {
   constructor(props) {
