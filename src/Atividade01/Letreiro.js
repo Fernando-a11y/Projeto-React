@@ -10,7 +10,7 @@ class Letreiro extends React.Component {
     };
     setInterval(() => {
       this.atualizarTexto();
-    }, 800);
+    }, 1200);
   }
 
   atualizarTexto() {
