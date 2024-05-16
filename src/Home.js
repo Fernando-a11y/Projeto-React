@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div>
-      <h1>Tarefas em React  😄</h1>
+      <h1>Atividade  React </h1>
       <nav>
         <ul>  
           <li>
