@@ -15,23 +15,4 @@ li {
   font-size: 18px;
 }
 
-a {
-  text-decoration: none;
-  color: #000000; 
-  transition: color 0.3s;
-}
 
-a:hover {
-  color: #000000; 
-}
-
-a.active {
-  font-weight: bold;
-}
-
-footer {
-  background-color: #000000; 
-  color: #fff; 
-  padding: 10px; 
-  text-align: center; 
-}
