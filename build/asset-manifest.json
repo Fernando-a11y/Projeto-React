@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c6b18a1.css",
+    "main.js": "/static/js/main.d930c10a.js",
+    "static/js/453.0cdbd17a.chunk.js": "/static/js/453.0cdbd17a.chunk.js",
+    "static/media/homem.png": "/static/media/homem.c28a884946c0b226e80b.png",
+    "static/media/mulher.png": "/static/media/mulher.13886ed7de74bed69a99.png",
+    "index.html": "/index.html",
+    "main.0c6b18a1.css.map": "/static/css/main.0c6b18a1.css.map",
+    "main.d930c10a.js.map": "/static/js/main.d930c10a.js.map",
+    "453.0cdbd17a.chunk.js.map": "/static/js/453.0cdbd17a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c6b18a1.css",
+    "static/js/main.d930c10a.js"
+  ]
+}
