@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import imgHomem from './imagens/homem.png'; //Imagem Homem
-import imgMulher from './imagens/mulher.png'; //Imagem Humlher
-import imgAtualizar from './imagens/atualizar.png'; //Imagem Atualizar
-import imgMais from './imagens/mais.png'; //Imagem mais
-import imgMenos from './imagens/menos.png'; //Imagem menos
+import imgHomem from './imagens/homem.png';
+import imgMulher from './imagens/mulher.png'; 
+import imgAtualizar from './imagens/atualizar.png'; 
+import imgMais from './imagens/mais.png'; 
+import imgMenos from './imagens/menos.png'; 
 import './Contador.css';
 
 function Contador () {
-  const [homemCount, setHomemCount] = useState(0); // contador relacionado aos homens.
-  const [mulherCount, setMulherCount] = useState(0); // contador relacionado às mulheres.
-  const [count, setCount] = useState(0); // contador global
+  const [homemCount, setHomemCount] = useState(0); 
+  const [mulherCount, setMulherCount] = useState(0); 
+  const [count, setCount] = useState(0); 
 
   function atualizarCount() {
     setCount(0);
@@ -17,36 +17,36 @@ function Contador () {
     setMulherCount(0);
   }
 
-  function addCount() { // Adiciona
+  function addCount() { 
     setCount(count + 1);
   }
 
-  function menosCount() { // Retira
+  function menosCount() { 
     setCount(count - 1);
   }
 
-  function addHomemCount() { // Adiciona homem
+  function addHomemCount() { 
     setHomemCount(homemCount + 1);
     addCount();
   }
 
-  function addMulherCount() { // Adiciona mulher
+  function addMulherCount() { // 
     setMulherCount(mulherCount + 1);
     addCount();
   }
 
-  function menosHomemCount() { //Menos homem
+  function menosHomemCount() {
     setHomemCount(homemCount - 1);
     menosCount();
   }
 
-  function menosMulherCount() { // Menos mulher
+  function menosMulherCount() { 
     setMulherCount(mulherCount - 1);
     menosCount();
   }
 
   return (
-    <div className='Contador-cont-comple'>
+    <div className='Contador-Total'>
       <div className='Contador-header'>
         <h1 className='Contador-titulo'>TOTAL</h1>
         <button className='Contador-button' onClick={atualizarCount}>
