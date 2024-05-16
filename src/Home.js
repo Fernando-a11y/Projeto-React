@@ -18,7 +18,7 @@ const Home = () => {
             <Link to={"/Atividade03"}>Atividade 3 - Praticando React </Link>
           </li>
          
-          </li>
+        
         </ul>
       </nav>
       
