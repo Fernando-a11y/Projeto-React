@@ -3,7 +3,7 @@ export default function Listar(){
         <>
         <h1>Hedy Lamarr's Todos</h1>
         <img
-            src="https://i.pinimg.com/236x/e2/21/a9/e221a939ae8024d0f3a853d98913a5d0--hollywood-glamour-classic-hollywood.jpg" 
+            src="https://i.imgur.com/yXOvdOSs.jpg"
             alt="Hedy Lamarr"
             className="photo"
         />
