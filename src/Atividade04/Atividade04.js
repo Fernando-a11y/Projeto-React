@@ -13,6 +13,7 @@ import List3 from "./componentes/List3";
 import List4 from "./componentes/List4";
 import BucketList from "./componentes/BucketList";
 import { Link } from "react-router-dom";
+import './Atividade04.css';
 
 
 export default function Atividade04(){
