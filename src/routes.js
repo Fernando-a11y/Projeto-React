@@ -16,7 +16,7 @@ export default function routes() {
                 <Route path="/Atividade02" element={<Atividade02/>}/>
                 <Route path="/Atividade03" element={<Atividade03/>}/>
                 <Route path="/Atividade04" element={<Atividade04/>}/>
-                <Route path="/Atividade05" element={<Atividade04/>}/>
+                <Route path="/Atividade05" element={<Atividade05/>}/>
                 
             </Routes>
         </BrowserRouter>
