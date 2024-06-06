@@ -4,7 +4,7 @@ import Atividade01 from "./Atividade01/atividade01";
 import Atividade02 from "./Atividade02/Atividade02";
 import Atividade03 from "./Atividade03/Atividade03";
 import Atividade04 from "./Atividade04/Atividade04";
-import Atividade04 from "./Atividade05/Atividade05";
+import Atividade05 from "./Atividade05/Atividade05";
 
 
 export default function routes() {
